@@ -36,7 +36,8 @@ public class Facebook {
     }
     public static void main(String[] args) throws Exception {
         Facebook fb = new Facebook();
-        fb.createClient("EAAOd1NNkPrMBAFEff9a09froFOU7v0fOxfStFZBx7s3rDi2HXgXkaXeQJ2WfT2E8lk7uC6qW2yHiOvIRJzo1k1QDRiPfZAaQ4zC5C8UckSDBq47zqlMamrG4kCxsaK25gi3fFmjoUTM8AdqZB79FxbfdDZBXGX08nnm4buiBBAZDZD");
+        //token goes here: 
+        //fb.createClient("token");
         fb.getMyInfo();
         List<String> feed =fb.printPostContent();
 
